@@ -1,0 +1,122 @@
+[
+    {
+        "name": "East Asia",
+        "lat": 22.267,
+        "lng": 114.188
+    },
+    {
+        "name": "Southeast Asia",
+        "lat": 1.283,
+        "lng": 103.833
+    },
+    {
+        "name": "Central US",
+        "lat": 41.5908,
+        "lng": -93.6208
+    },
+    {
+        "name": "East US",
+        "lat": 37.3719,
+        "lng": -79.8164
+    },
+    {
+        "name": "East US 2",
+        "lat": 36.6681,
+        "lng": -78.3889
+    },
+    {
+        "name": "West US",
+        "lat": 37.783,
+        "lng": -122.417
+    },
+    {
+        "name": "North Central US",
+        "lat": 41.8819,
+        "lng": -87.6278
+    },
+    {
+        "name": "South Central US",
+        "lat": 29.4167,
+        "lng": -98.5
+    },
+    {
+        "name": "North Europe",
+        "lat": 53.3478,
+        "lng": -6.2597
+    },
+    {
+        "name": "West Europe",
+        "lat": 52.3667,
+        "lng": 4.9
+    },
+    {
+        "name": "Japan West",
+        "lat": 34.6939,
+        "lng": 135.5022
+    },
+    {
+        "name": "Japan East",
+        "lat": 35.68,
+        "lng": 139.77
+    },
+    {
+        "name": "Brazil South",
+        "lat": -23.55,
+        "lng": -46.633
+    },
+    {
+        "name": "Australia East",
+        "lat": -33.86,
+        "lng": 151.5022
+    },
+    {
+        "name": "Australia Southeast",
+        "lat": -37.8136,
+        "lng": 144.9631
+    },
+    {
+        "name": "South India",
+        "lat": 12.9822,
+        "lng": 80.1636
+    },
+    {
+        "name": "Central India",
+        "lat": 18.5822,
+        "lng": 73.9197
+    },
+    {
+        "name": "West India",
+        "lat": 19.088,
+        "lng": 72.868
+    },
+    {
+        "name": "Canada Central",
+        "lat": 43.653,
+        "lng": -79.383
+    },
+    {
+        "name": "Canada East",
+        "lat": 46.817,
+        "lng": -71.217
+    },
+    {
+        "name": "UK South",
+        "lat": 50.941,
+        "lng": -0.799
+    },
+    {
+        "name": "UK West",
+        "lat": 53.427,
+        "lng": -3.084
+    },
+    {
+        "name": "West Central US",
+        "lat": 40.890,
+        "lng": -110.234
+    },
+    {
+        "name": "West US 2",
+        "lat": 47.233,
+        "lng": -119.852
+    }
+]
