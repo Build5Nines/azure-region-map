@@ -91,9 +91,10 @@
                     <p>
                         <h4>Where is the location data for this map from?</h4>
                         The following Azure CLI command was used to retrieve the Latitude / Longitude coordinates of each of the Azure Regions (aka Locations):
-                        <pre>azure location list</pre>
-                        <img src="images/azure-location-list-screenshot.png" style="width: 100%"/>
-
+                        <pre>azure location list --json</pre>
+                        This Azure CLI command will output a JSON file containing the Azure Region data. This JSON file is pulled directly into this app for display.
+                    </p>
+                    <p>
                         <h4>How many Azure Regions are there?</h4>
                         Currently, Azure is generally available in <a href="https://azure.microsoft.com/en-us/regions/">30 regions</a> around the world, with 4 additional regions planned.
                         <a href="https://azure.microsoft.com/en-us/regions/"><img src="images/ms-azure-region-map.png" style="width: 100%"/></a>
@@ -130,7 +131,7 @@
 
                             try {
                                 var pin = new Microsoft.Maps.Pushpin(
-                                    new Microsoft.Maps.Location(item.lat, item.lng),
+                                    new Microsoft.Maps.Location(item.latitude, item.longitude),
                                     { color: 'blue' });
                                 
                                 pin.metadata = item;
@@ -140,8 +141,8 @@
 
                                     infobox.setOptions({
                                         location: args.target.getLocation(),
-                                        title: metadata.name,
-                                        description: "Latitude: " + metadata.lat + "<br/>Longitude: " + metadata.lng,
+                                        title: metadata.displayName,
+                                        description: "Latitude: " + metadata.latitude + "<br/>Longitude: " + metadata.longitude,
                                         visible: true 
                                     });
                                 });
