@@ -90,15 +90,21 @@
                 <div class="modal-body">
                     <p>
                         <h4>Where is the location data for this map from?</h4>
-                        The following Azure CLI command was used to retrieve the Latitude / Longitude coordinates of each of the Azure Regions (aka Locations):
+                        The following Azure CLI command was used to retrieve the Latitude / Longitude coordinates of each of the Azure Regions (aka Locations) in the Public Microsoft Cloud:
                         <pre>azure location list --json</pre>
-                        This Azure CLI command will output a JSON file containing the Azure Region data. This JSON file is pulled directly into this app for display.
+                        This Azure CLI command will output a JSON file containing the Azure Region data. This JSON file is pulled directly into this app for display.<br/>
+                        <br/>
+                        Additional data has been hand compiled to include non-Public Cloud data center regions / locations, such as Germany and China as well.
                     </p>
                     <p>
                         <h4>How many Azure Regions are there?</h4>
                         Currently, Azure is generally available in <a href="https://azure.microsoft.com/en-us/regions/">30 regions</a> around the world, with 4 additional regions planned.
                         <a href="https://azure.microsoft.com/en-us/regions/"><img src="images/ms-azure-region-map.png" style="width: 100%"/></a>
                         <em>This map image is from Microsoft. Follow the link to see it in full.</em>
+                    </p>
+                    <p>
+                        <h4>How accurate are the points / geocodes?</h4>
+                        The accuracy is basically to the general city where the data centers are located. Microsoft doesn't disclose the actual location or street address of the datacenters for security reasons. Much of the data on this map is taken directly from the geocode that Microsoft publishes for the datacenters. Other data (such as Germany and China) just point to the City that Microsoft has said the datacenter is in.
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -120,44 +126,49 @@
                 var infobox = new Microsoft.Maps.Infobox(map.getCenter(), { visible: false });
                 infobox.setMap(map);
 
-                $.ajax({
-                    url: 'data/azure_regions.json',
-                    dataType: 'json',
-                    method: 'GET',
-                    success: function(d) {
+                function loadRegions(jsonFileUrl, pointColor) {
+                    $.ajax({
+                        url: jsonFileUrl,
+                        dataType: 'json',
+                        method: 'GET',
+                        cache: false,
+                        success: function(d) {
 
-                        for(var i = 0; i < d.length; i++) {
-                            var item = d[i];
+                            for(var i = 0; i < d.length; i++) {
+                                var item = d[i];
 
-                            try {
-                                var pin = new Microsoft.Maps.Pushpin(
-                                    new Microsoft.Maps.Location(item.latitude, item.longitude),
-                                    { color: 'blue' });
-                                
-                                pin.metadata = item;
+                                try {
+                                    var pin = new Microsoft.Maps.Pushpin(
+                                        new Microsoft.Maps.Location(item.latitude, item.longitude),
+                                        { color: pointColor });
+                                    
+                                    pin.metadata = item;
 
-                                Microsoft.Maps.Events.addHandler(pin, 'click', function(args) {
-                                    var metadata = args.target.metadata;
+                                    Microsoft.Maps.Events.addHandler(pin, 'click', function(args) {
+                                        var metadata = args.target.metadata;
 
-                                    infobox.setOptions({
-                                        location: args.target.getLocation(),
-                                        title: metadata.displayName,
-                                        description: "Latitude: " + metadata.latitude + "<br/>Longitude: " + metadata.longitude,
-                                        visible: true 
+                                        infobox.setOptions({
+                                            location: args.target.getLocation(),
+                                            title: metadata.displayName,
+                                            description: "Latitude: " + metadata.latitude + "<br/>Longitude: " + metadata.longitude,
+                                            visible: true 
+                                        });
                                     });
-                                });
 
-                                map.entities.push(pin);
+                                    map.entities.push(pin);
 
-                            } catch(e) {
-                                alert(e);
+                                } catch(e) {
+                                    alert(e);
+                                }
+
                             }
 
                         }
+                    });
+                }
 
-                    }
-                });
-
+                loadRegions('data/azure_regions.json', 'blue');
+                loadRegions('data/other_azure_regions.json', 'green');
             }
         </script>
         <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=loadMap' async defer></script>
