@@ -50,7 +50,7 @@
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
     "name": "australiacentral",
-    "displayName": "Australia Center",
+    "displayName": "Australia Central",
     "latitude": "-33.719466",
     "longitude": "149.90751",
     "providers": [ ]
@@ -58,9 +58,25 @@
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
     "name": "australiacentral2",
-    "displayName": "Australia Center 2",
+    "displayName": "Australia Central 2",
     "latitude": "-36.09764",
     "longitude": "148.58915",
     "providers": [ ]
   },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "francecentral",
+    "displayName": "France Central",
+    "latitude": "47.22354",
+    "longitude": "0.56198",
+    "providers": [ ]
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "francesouth",
+    "displayName": "France South",
+    "latitude": "43.5863",
+    "longitude": "3.46237",
+    "providers": [ ]
+  }
 ]
