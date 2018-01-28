@@ -30,5 +30,37 @@
     "latitude": "39.916",
     "longitude": "116.383",
     "providers": [ ]
-  }
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "southafricawest",
+    "displayName": "South Africa West",
+    "latitude": "-34.22966",
+    "longitude": "19.917277",
+    "providers": [ ]
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "southafricanorth",
+    "displayName": "South Africa North",
+    "latitude": "-29.53013",
+    "longitude": "26.15751",
+    "providers": [ ]
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "australiacentral",
+    "displayName": "Australia Center",
+    "latitude": "-33.719466",
+    "longitude": "149.90751",
+    "providers": [ ]
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "australiacentral2",
+    "displayName": "Australia Center 2",
+    "latitude": "-36.09764",
+    "longitude": "148.58915",
+    "providers": [ ]
+  },
 ]
