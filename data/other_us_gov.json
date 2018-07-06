@@ -42,7 +42,7 @@
     {
       "id": "/subscriptions/{subscription-id}/locations/{name}",
       "name": "usgovtexas",
-      "displayName": "usgovtexas",
+      "displayName": "US Gov Texas",
       "latitude": "31.56443",
       "longitude": "-99.208076",
       "providers": [ ]
