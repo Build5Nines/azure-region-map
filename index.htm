@@ -96,21 +96,23 @@
                 <div class="modal-body">
                     <p>
                         <h4>Where is the location data for this map from?</h4>
-                        The following Azure CLI command was used to retrieve the Latitude / Longitude coordinates of each of the Azure Regions (aka Locations) in the Public Microsoft Cloud:
+                        The following Azure CLI command was used to retrieve the Latitude / Longitude coordinates of each of the Microsoft Azure "Public Cloud" Regions (aka Locations):
                         <pre>azure location list --json</pre>
                         This Azure CLI command will output a JSON file containing the Azure Region data. This JSON file is pulled directly into this app for display.<br/>
                         <br/>
-                        Additional data has been hand compiled to include non-Public Cloud data center regions / locations, such as Germany and China as well.
+                        Additional data has been hand compiled / generated to include non-Public Cloud data center regions / locations, such as Germany, China, and the US Gov / DoD as well.<br/>
+                        <br/>
+                        All geocode locations for Azure Regions are estimates. They do not represent the actual physical location of a specific datacenter.
                     </p>
                     <p>
                         <h4>How many Azure Regions are there?</h4>
-                        Currently, Azure is generally available in <a href="https://azure.microsoft.com/en-us/regions/">30 regions</a> around the world, with 4 additional regions planned.
+                        Currently, Azure is available in <a href="https://azure.microsoft.com/en-us/global-infrastructure/regions/">54 regions</a> around the world.
                         <a href="https://azure.microsoft.com/en-us/regions/"><img src="images/ms-azure-region-map.png" style="width: 100%"/></a>
                         <em>This map image is from Microsoft. Follow the link to see it in full.</em>
                     </p>
                     <p>
                         <h4>How accurate are the points / geocodes?</h4>
-                        The accuracy is basically to the general city where the data centers are located. Microsoft doesn't disclose the actual location or street address of the datacenters for security reasons. Much of the data on this map is taken directly from the geocode that Microsoft publishes for the datacenters. Other data (such as Germany and China) just point to the City that Microsoft has said the datacenter is in.
+                        The accuracy is basically to the general geographic region where the Azure Regions are located. Microsoft doesn't disclose the actual location or street address of the physical datacenters for security reasons. Much of the data on this map is taken directly from the geocode that Microsoft publishes for the datacenters. Other data (such as Germany, China, and US Gov / DoD) just point to the City or Region that Microsoft has indicated the region is in.
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -175,6 +177,7 @@
 
                 loadRegions('data/azure_regions.json', 'blue');
                 loadRegions('data/other_azure_regions.json', 'green');
+                loadRegions('data/other_us_gov.json', 'red');
             }
         </script>
         <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=loadMap' async defer></script>

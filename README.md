@@ -7,3 +7,4 @@ You can view the Microsoft Azure Regions Interactive Map at the following locati
 
 
 This project was created by and is maintained by [Chris Pietschmann](http://buildazure.com).
+

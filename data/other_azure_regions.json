@@ -9,6 +9,22 @@
   },
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "germanywestcentral",
+    "displayName": "Germany West Central",
+    "latitude": "50.33704",
+    "longitude": "6.97461",
+    "providers": [ ]
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "germanynorth",
+    "displayName": "Germany North",
+    "latitude": "53.58467",
+    "longitude": "10.62208",
+    "providers": [ ]
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
     "name": "germanynortheast",
     "displayName": "Germany Northeast",
     "latitude": "52.133",
@@ -45,6 +61,38 @@
     "displayName": "South Africa North",
     "latitude": "-29.53013",
     "longitude": "26.15751",
+    "providers": [ ]
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "switzerlandnorth",
+    "displayName": "Switzerland North",
+    "latitude": "47.37204",
+    "longitude": "8.54094",
+    "providers": [ ]
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "Switzerland West",
+    "displayName": "Switzerland West",
+    "latitude": "46.2018",
+    "longitude": "6.151422",
+    "providers": [ ]
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "norwayeast",
+    "displayName": "Norway East",
+    "latitude": "59.91662",
+    "longitude": "10.98205232040613",
+    "providers": [ ]
+  },
+  {
+    "id": "/subscriptions/{subscription-id}/locations/{name}",
+    "name": "norwaywest",
+    "displayName": "Norway West",
+    "latitude": "60.354271",
+    "longitude": "5.444942",
     "providers": [ ]
   }
 ]
