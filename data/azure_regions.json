@@ -6,6 +6,7 @@
     "latitude": "22.267",
     "longitude": "114.188",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -40,6 +41,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -48,7 +50,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -63,7 +64,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -73,6 +75,7 @@
     "latitude": "1.283",
     "longitude": "103.833",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -107,6 +110,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -115,7 +119,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -130,7 +133,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -140,6 +144,7 @@
     "latitude": "41.5908",
     "longitude": "-93.6208",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -174,6 +179,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -182,7 +188,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -197,7 +202,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -207,6 +213,7 @@
     "latitude": "37.3719",
     "longitude": "-79.8164",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -241,6 +248,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -249,7 +257,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -264,7 +271,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -274,6 +282,7 @@
     "latitude": "36.6681",
     "longitude": "-78.3889",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -308,6 +317,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -316,7 +326,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -331,7 +340,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -341,6 +351,7 @@
     "latitude": "37.783",
     "longitude": "-122.417",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -375,6 +386,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -383,7 +395,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -398,7 +409,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -408,6 +420,7 @@
     "latitude": "41.8819",
     "longitude": "-87.6278",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -442,6 +455,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -450,7 +464,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -465,7 +478,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -475,6 +489,7 @@
     "latitude": "29.4167",
     "longitude": "-98.5",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -509,6 +524,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -517,7 +533,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -532,7 +547,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -542,6 +558,7 @@
     "latitude": "53.3478",
     "longitude": "-6.2597",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -576,6 +593,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -584,7 +602,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -599,7 +616,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -609,6 +627,7 @@
     "latitude": "52.3667",
     "longitude": "4.9",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -643,6 +662,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -651,7 +671,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -666,7 +685,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -676,6 +696,7 @@
     "latitude": "34.6939",
     "longitude": "135.5022",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -710,6 +731,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -718,7 +740,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -733,7 +754,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -743,6 +765,7 @@
     "latitude": "35.68",
     "longitude": "139.77",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -777,6 +800,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -785,7 +809,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -800,7 +823,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -810,6 +834,7 @@
     "latitude": "-23.55",
     "longitude": "-46.633",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -844,6 +869,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -852,7 +878,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -867,7 +892,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -877,6 +903,7 @@
     "latitude": "-33.86",
     "longitude": "151.2094",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -911,6 +938,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -919,7 +947,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -934,7 +961,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -944,6 +972,7 @@
     "latitude": "-37.8136",
     "longitude": "144.9631",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -978,6 +1007,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -986,7 +1016,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1001,7 +1030,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1011,6 +1041,7 @@
     "latitude": "12.9822",
     "longitude": "80.1636",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1045,6 +1076,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1053,7 +1085,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1068,7 +1099,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1078,6 +1110,7 @@
     "latitude": "18.5822",
     "longitude": "73.9197",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1112,6 +1145,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1120,7 +1154,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1135,7 +1168,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1145,6 +1179,7 @@
     "latitude": "19.088",
     "longitude": "72.868",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1179,6 +1214,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1187,7 +1223,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1202,7 +1237,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1212,6 +1248,7 @@
     "latitude": "43.653",
     "longitude": "-79.383",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1246,6 +1283,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1254,7 +1292,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1269,7 +1306,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1279,6 +1317,7 @@
     "latitude": "46.817",
     "longitude": "-71.217",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1313,6 +1352,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1321,7 +1361,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1336,7 +1375,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1346,6 +1386,7 @@
     "latitude": "50.941",
     "longitude": "-0.799",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1380,6 +1421,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1388,7 +1430,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1403,7 +1444,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1413,6 +1455,7 @@
     "latitude": "53.427",
     "longitude": "-3.084",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1447,6 +1490,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1455,7 +1499,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1470,7 +1513,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1480,6 +1524,7 @@
     "latitude": "40.890",
     "longitude": "-110.234",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1514,6 +1559,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1522,7 +1568,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1537,7 +1582,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1547,6 +1593,7 @@
     "latitude": "47.233",
     "longitude": "-119.852",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1581,6 +1628,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1589,7 +1637,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1604,7 +1651,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1614,6 +1662,7 @@
     "latitude": "37.5665",
     "longitude": "126.9780",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1648,6 +1697,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1656,7 +1706,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1671,7 +1720,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1681,6 +1731,7 @@
     "latitude": "35.1796",
     "longitude": "129.0756",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1715,6 +1766,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1723,7 +1775,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1738,7 +1789,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1748,6 +1800,7 @@
     "latitude": "46.3772",
     "longitude": "2.3730",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1782,6 +1835,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1790,7 +1844,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1805,7 +1858,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1815,6 +1869,7 @@
     "latitude": "43.8345",
     "longitude": "2.1972",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1849,6 +1904,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1857,7 +1913,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1872,7 +1927,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1882,6 +1938,7 @@
     "latitude": "-35.3075",
     "longitude": "149.1244",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1916,6 +1973,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1924,7 +1982,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -1939,7 +1996,8 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   },
   {
@@ -1949,6 +2007,7 @@
     "latitude": "-35.3075",
     "longitude": "149.1244",
     "providers": [
+      "Microsoft.Advisor",
       "Microsoft.AnalysisServices",
       "Microsoft.ApiManagement",
       "Microsoft.Authorization",
@@ -1983,6 +2042,7 @@
       "Microsoft.OperationalInsights",
       "Microsoft.OperationsManagement",
       "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
       "Microsoft.RecoveryServices",
       "Microsoft.ResourceHealth",
       "Microsoft.Scheduler",
@@ -1991,7 +2051,6 @@
       "Microsoft.ServiceBus",
       "Microsoft.ServiceFabric",
       "Microsoft.ServiceFabricMesh",
-      "Microsoft.SiteRecovery",
       "Microsoft.Sql",
       "Microsoft.Storage",
       "Microsoft.StreamAnalytics",
@@ -2006,7 +2065,146 @@
       "Microsoft.Features",
       "Microsoft.MarketplaceOrdering",
       "Microsoft.Resources",
-      "microsoft.support"
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
+    ]
+  },
+  {
+    "id": "/subscriptions/41850220-19f0-49c6-87ea-766c9b0da1f1/locations/southafricanorth",
+    "name": "southafricanorth",
+    "displayName": "South Africa North",
+    "latitude": "-25.731340",
+    "longitude": "28.218370",
+    "providers": [
+      "Microsoft.Advisor",
+      "Microsoft.AnalysisServices",
+      "Microsoft.ApiManagement",
+      "Microsoft.Authorization",
+      "Microsoft.Automation",
+      "Microsoft.Batch",
+      "Microsoft.Cache",
+      "Microsoft.Cdn",
+      "Microsoft.ClassicCompute",
+      "Microsoft.ClassicStorage",
+      "Microsoft.Commerce",
+      "Microsoft.Compute",
+      "Microsoft.ContainerRegistry",
+      "Microsoft.ContainerService",
+      "Microsoft.DataFactory",
+      "Microsoft.DBforMySQL",
+      "Microsoft.Devices",
+      "Microsoft.DevTestLab",
+      "Microsoft.DocumentDB",
+      "Microsoft.DomainRegistration",
+      "Microsoft.EventGrid",
+      "Microsoft.EventHub",
+      "Microsoft.HDInsight",
+      "microsoft.insights",
+      "Microsoft.IoTCentral",
+      "Microsoft.KeyVault",
+      "Microsoft.Logic",
+      "Microsoft.MachineLearning",
+      "Microsoft.ManagedIdentity",
+      "Microsoft.Maps",
+      "Microsoft.Media",
+      "Microsoft.Network",
+      "Microsoft.OperationalInsights",
+      "Microsoft.OperationsManagement",
+      "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
+      "Microsoft.RecoveryServices",
+      "Microsoft.ResourceHealth",
+      "Microsoft.Scheduler",
+      "Microsoft.Search",
+      "Microsoft.Security",
+      "Microsoft.ServiceBus",
+      "Microsoft.ServiceFabric",
+      "Microsoft.ServiceFabricMesh",
+      "Microsoft.Sql",
+      "Microsoft.Storage",
+      "Microsoft.StreamAnalytics",
+      "microsoft.visualstudio",
+      "Microsoft.Web",
+      "SuccessBricks.ClearDB",
+      "Microsoft.ADHybridHealthService",
+      "Microsoft.Billing",
+      "Microsoft.ClassicSubscription",
+      "Microsoft.Consumption",
+      "Microsoft.CostManagement",
+      "Microsoft.Features",
+      "Microsoft.MarketplaceOrdering",
+      "Microsoft.Resources",
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
+    ]
+  },
+  {
+    "id": "/subscriptions/41850220-19f0-49c6-87ea-766c9b0da1f1/locations/southafricawest",
+    "name": "southafricawest",
+    "displayName": "South Africa West",
+    "latitude": "-34.075691",
+    "longitude": "18.843266",
+    "providers": [
+      "Microsoft.Advisor",
+      "Microsoft.AnalysisServices",
+      "Microsoft.ApiManagement",
+      "Microsoft.Authorization",
+      "Microsoft.Automation",
+      "Microsoft.Batch",
+      "Microsoft.Cache",
+      "Microsoft.Cdn",
+      "Microsoft.ClassicCompute",
+      "Microsoft.ClassicStorage",
+      "Microsoft.Commerce",
+      "Microsoft.Compute",
+      "Microsoft.ContainerRegistry",
+      "Microsoft.ContainerService",
+      "Microsoft.DataFactory",
+      "Microsoft.DBforMySQL",
+      "Microsoft.Devices",
+      "Microsoft.DevTestLab",
+      "Microsoft.DocumentDB",
+      "Microsoft.DomainRegistration",
+      "Microsoft.EventGrid",
+      "Microsoft.EventHub",
+      "Microsoft.HDInsight",
+      "microsoft.insights",
+      "Microsoft.IoTCentral",
+      "Microsoft.KeyVault",
+      "Microsoft.Logic",
+      "Microsoft.MachineLearning",
+      "Microsoft.ManagedIdentity",
+      "Microsoft.Maps",
+      "Microsoft.Media",
+      "Microsoft.Network",
+      "Microsoft.OperationalInsights",
+      "Microsoft.OperationsManagement",
+      "Microsoft.PolicyInsights",
+      "Microsoft.Portal",
+      "Microsoft.RecoveryServices",
+      "Microsoft.ResourceHealth",
+      "Microsoft.Scheduler",
+      "Microsoft.Search",
+      "Microsoft.Security",
+      "Microsoft.ServiceBus",
+      "Microsoft.ServiceFabric",
+      "Microsoft.ServiceFabricMesh",
+      "Microsoft.Sql",
+      "Microsoft.Storage",
+      "Microsoft.StreamAnalytics",
+      "microsoft.visualstudio",
+      "Microsoft.Web",
+      "SuccessBricks.ClearDB",
+      "Microsoft.ADHybridHealthService",
+      "Microsoft.Billing",
+      "Microsoft.ClassicSubscription",
+      "Microsoft.Consumption",
+      "Microsoft.CostManagement",
+      "Microsoft.Features",
+      "Microsoft.MarketplaceOrdering",
+      "Microsoft.Resources",
+      "microsoft.support",
+      "Microsoft.WorkloadMonitor"
     ]
   }
 ]
