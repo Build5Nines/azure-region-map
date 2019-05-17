@@ -97,7 +97,11 @@
                     <p>
                         <h4>Where is the location data for this map from?</h4>
                         The following Azure CLI command was used to retrieve the Latitude / Longitude coordinates of each of the Microsoft Azure "Public Cloud" Regions (aka Locations):
-                        <pre>azure location list --json > azure_regions.json</pre>
+                        <pre>## Azure CLI 1.0
+                        azure location list --json > azure_regions.json
+                        
+                        ### Azure CLI 2.0
+                        az account list-locations</pre>
                         This Azure CLI command will output a JSON file containing the Azure Region data. This JSON file is pulled directly into this app for display.<br/>
                         <br/>
                         Additional data has been hand compiled / generated to include non-Public Cloud data center regions / locations, such as Germany, China, and the US Gov / DoD as well.<br/>
