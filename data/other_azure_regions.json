@@ -9,22 +9,6 @@
   },
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
-    "name": "germanywestcentral",
-    "displayName": "Germany West Central",
-    "latitude": "50.33704",
-    "longitude": "6.97461",
-    "providers": [ ]
-  },
-  {
-    "id": "/subscriptions/{subscription-id}/locations/{name}",
-    "name": "germanynorth",
-    "displayName": "Germany North",
-    "latitude": "53.58467",
-    "longitude": "10.62208",
-    "providers": [ ]
-  },
-  {
-    "id": "/subscriptions/{subscription-id}/locations/{name}",
     "name": "germanynortheast",
     "displayName": "Germany Northeast",
     "latitude": "52.133",
