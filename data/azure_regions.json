@@ -1,6 +1,6 @@
 [
   {
-    "id": "/subscriptions/{subscription-id}/locations/eastasia",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/eastasia",
     "name": "eastasia",
     "displayName": "East Asia",
     "latitude": "22.267",
@@ -27,6 +27,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -52,12 +55,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription}/locations/southeastasia",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/southeastasia",
     "name": "southeastasia",
     "displayName": "Southeast Asia",
     "latitude": "1.283",
@@ -84,6 +88,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -109,12 +116,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/centralus",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/centralus",
     "name": "centralus",
     "displayName": "Central US",
     "latitude": "41.5908",
@@ -141,6 +149,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -166,12 +177,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/eastus",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/eastus",
     "name": "eastus",
     "displayName": "East US",
     "latitude": "37.3719",
@@ -198,6 +210,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -223,12 +238,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/eastus2",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/eastus2",
     "name": "eastus2",
     "displayName": "East US 2",
     "latitude": "36.6681",
@@ -255,6 +271,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -280,12 +299,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/westus",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/westus",
     "name": "westus",
     "displayName": "West US",
     "latitude": "37.783",
@@ -312,6 +332,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -337,12 +360,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/northcentralus",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/northcentralus",
     "name": "northcentralus",
     "displayName": "North Central US",
     "latitude": "41.8819",
@@ -369,6 +393,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -394,12 +421,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/southcentralus",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/southcentralus",
     "name": "southcentralus",
     "displayName": "South Central US",
     "latitude": "29.4167",
@@ -426,6 +454,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -451,12 +482,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/northeurope",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/northeurope",
     "name": "northeurope",
     "displayName": "North Europe",
     "latitude": "53.3478",
@@ -483,6 +515,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -508,12 +543,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/westeurope",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/westeurope",
     "name": "westeurope",
     "displayName": "West Europe",
     "latitude": "52.3667",
@@ -540,6 +576,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -565,12 +604,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/japanwest",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/japanwest",
     "name": "japanwest",
     "displayName": "Japan West",
     "latitude": "34.6939",
@@ -597,6 +637,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -622,12 +665,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/japaneast",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/japaneast",
     "name": "japaneast",
     "displayName": "Japan East",
     "latitude": "35.68",
@@ -654,6 +698,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -679,12 +726,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/brazilsouth",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/brazilsouth",
     "name": "brazilsouth",
     "displayName": "Brazil South",
     "latitude": "-23.55",
@@ -711,6 +759,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -736,12 +787,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/australiaeast",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/australiaeast",
     "name": "australiaeast",
     "displayName": "Australia East",
     "latitude": "-33.86",
@@ -768,6 +820,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -793,12 +848,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/australiasoutheast",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/australiasoutheast",
     "name": "australiasoutheast",
     "displayName": "Australia Southeast",
     "latitude": "-37.8136",
@@ -825,6 +881,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -850,12 +909,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/southindia",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/southindia",
     "name": "southindia",
     "displayName": "South India",
     "latitude": "12.9822",
@@ -882,6 +942,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -907,12 +970,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/centralindia",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/centralindia",
     "name": "centralindia",
     "displayName": "Central India",
     "latitude": "18.5822",
@@ -939,6 +1003,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -964,12 +1031,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/westindia",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/westindia",
     "name": "westindia",
     "displayName": "West India",
     "latitude": "19.088",
@@ -996,6 +1064,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1021,12 +1092,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/canadacentral",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/canadacentral",
     "name": "canadacentral",
     "displayName": "Canada Central",
     "latitude": "43.653",
@@ -1053,6 +1125,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1078,12 +1153,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/canadaeast",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/canadaeast",
     "name": "canadaeast",
     "displayName": "Canada East",
     "latitude": "46.817",
@@ -1110,6 +1186,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1135,12 +1214,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/uksouth",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/uksouth",
     "name": "uksouth",
     "displayName": "UK South",
     "latitude": "50.941",
@@ -1167,6 +1247,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1192,12 +1275,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/ukwest",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/ukwest",
     "name": "ukwest",
     "displayName": "UK West",
     "latitude": "53.427",
@@ -1224,6 +1308,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1249,12 +1336,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/westcentralus",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/westcentralus",
     "name": "westcentralus",
     "displayName": "West Central US",
     "latitude": "40.890",
@@ -1281,6 +1369,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1306,12 +1397,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/westus2",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/westus2",
     "name": "westus2",
     "displayName": "West US 2",
     "latitude": "47.233",
@@ -1338,6 +1430,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1363,12 +1458,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/koreacentral",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/koreacentral",
     "name": "koreacentral",
     "displayName": "Korea Central",
     "latitude": "37.5665",
@@ -1395,6 +1491,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1420,12 +1519,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/koreasouth",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/koreasouth",
     "name": "koreasouth",
     "displayName": "Korea South",
     "latitude": "35.1796",
@@ -1452,6 +1552,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1477,12 +1580,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/francecentral",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/francecentral",
     "name": "francecentral",
     "displayName": "France Central",
     "latitude": "46.3772",
@@ -1509,6 +1613,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1534,12 +1641,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/francesouth",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/francesouth",
     "name": "francesouth",
     "displayName": "France South",
     "latitude": "43.8345",
@@ -1566,6 +1674,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1591,12 +1702,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/australiacentral",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/australiacentral",
     "name": "australiacentral",
     "displayName": "Australia Central",
     "latitude": "-35.3075",
@@ -1623,6 +1735,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1648,12 +1763,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/australiacentral2",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/australiacentral2",
     "name": "australiacentral2",
     "displayName": "Australia Central 2",
     "latitude": "-35.3075",
@@ -1680,6 +1796,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1705,12 +1824,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/uaecentral",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/uaecentral",
     "name": "uaecentral",
     "displayName": "UAE Central",
     "latitude": "24.466667",
@@ -1737,6 +1857,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1762,12 +1885,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/uaenorth",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/uaenorth",
     "name": "uaenorth",
     "displayName": "UAE North",
     "latitude": "25.266666",
@@ -1794,6 +1918,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1819,12 +1946,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/southafricanorth",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/southafricanorth",
     "name": "southafricanorth",
     "displayName": "South Africa North",
     "latitude": "-25.731340",
@@ -1851,6 +1979,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1876,12 +2007,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/southafricawest",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/southafricawest",
     "name": "southafricawest",
     "displayName": "South Africa West",
     "latitude": "-34.075691",
@@ -1908,6 +2040,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1933,12 +2068,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/switzerlandnorth",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/switzerlandnorth",
     "name": "switzerlandnorth",
     "displayName": "Switzerland North",
     "latitude": "47.451542",
@@ -1965,6 +2101,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -1990,12 +2129,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/switzerlandwest",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/switzerlandwest",
     "name": "switzerlandwest",
     "displayName": "Switzerland West",
     "latitude": "46.204391",
@@ -2022,6 +2162,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -2047,12 +2190,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/germanynorth",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/germanynorth",
     "name": "germanynorth",
     "displayName": "Germany North",
     "latitude": "53.073635",
@@ -2079,6 +2223,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -2104,12 +2251,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/germanywestcentral",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/germanywestcentral",
     "name": "germanywestcentral",
     "displayName": "Germany West Central",
     "latitude": "50.110924",
@@ -2136,6 +2284,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -2161,12 +2312,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/norwaywest",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/norwaywest",
     "name": "norwaywest",
     "displayName": "Norway West",
     "latitude": "58.969975",
@@ -2193,6 +2345,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -2218,12 +2373,13 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
   },
   {
-    "id": "/subscriptions/{subscription-id}/locations/norwayeast",
+    "id": "/subscriptions/5461187e-57bf-4442-92ef-24d66fd0698d/locations/norwayeast",
     "name": "norwayeast",
     "displayName": "Norway East",
     "latitude": "59.913868",
@@ -2250,6 +2406,9 @@
       "Microsoft.Portal",
       "Microsoft.SqlVirtualMachine",
       "Microsoft.ContainerService",
+      "Microsoft.StreamAnalytics",
+      "Microsoft.AlertsManagement",
+      "Microsoft.Maps",
       "Microsoft.ClassicCompute",
       "Microsoft.ClassicNetwork",
       "Microsoft.ClassicStorage",
@@ -2275,6 +2434,7 @@
       "Microsoft.MarketplaceOrdering",
       "Microsoft.ResourceGraph",
       "Microsoft.Resources",
+      "Microsoft.SerialConsole",
       "microsoft.support",
       "Microsoft.WorkloadMonitor"
     ]
