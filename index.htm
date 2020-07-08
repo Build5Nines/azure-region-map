@@ -178,9 +178,9 @@ az account list-locations > azure_regions.json</pre>
                     });
                 }
 
-                loadRegions('data/azure_regions.json', 'blue');
-                loadRegions('data/other_azure_regions.json', 'blue'); //'green');
-                loadRegions('data/other_us_gov.json', 'blue'); //'red');
+                loadRegions('azure-regions/azure_regions.json', 'blue');
+                loadRegions('azure-regions/other_azure_regions.json', 'blue'); //'green');
+                loadRegions('azure-regions/other_us_gov.json', 'blue'); //'red');
             }
         </script>
         <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=loadMap' async defer></script>
