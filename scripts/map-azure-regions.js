@@ -11,14 +11,16 @@
   
     map.events.add('ready', function() {
   
-      map.controls.add([
-        new atlas.control.StyleControl(),
-        new FullscreenControl({
-          style: 'auto'
-        })
-      ], {
-        position: 'top-right'
-      });
+      if ($(window).width() > 1024) {
+        map.controls.add([
+            new atlas.control.StyleControl(),
+            new FullscreenControl({
+            style: 'auto'
+            })
+        ], {
+            position: 'top-right'
+        });
+      }
       map.controls.add(
         new atlas.control.ZoomControl(), {
           position: 'top-right'
