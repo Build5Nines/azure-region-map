@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   schedule:
-  - cron: 0 0 * * 3 # Every Wednesday
+  - cron: 0 4 * * 0 # Every Sunday at 4am
 
 name: Update Azure Regions JSON
 jobs:
