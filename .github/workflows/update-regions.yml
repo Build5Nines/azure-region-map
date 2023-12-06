@@ -1,0 +1,60 @@
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: 0 0 * * 3 # Every Wednesday
+
+name: Update Azure Regions JSON
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    # Checkout code
+    - uses: actions/checkout@main
+
+      # Log into Azure
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    # add action that calls an Azure CLI command
+    - uses: azure/CLI@v1
+      with:
+        inlineScript: |
+          az account list-locations --query "[].{displayName:displayName, name:name, latitude:metadata.latitude, longitude:metadata.longitude}" --output json > ./azure-regions/azure_regions.json
+
+    # # add action that commits local changes back to repo
+    # - uses: actions/commit@v1
+    #   with:
+    #     repository: ${{ github.repository }}
+    #     # commit message
+    #     message: 'Update Azure Regions'
+    #     # files to commit
+    #     files: ./azure-regions/azure_regions.json
+    #     # name of branch to commit to
+    #     branch: main
+    #     # name of author
+    #     author_name: GitHub Actions
+    #     # email of author
+    #     #author_email:
+
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: main # The branch the action should deploy to.
+        FOLDER: ${{ github.workspace }} # The folder the action should deploy.
+
+
+
+{
+    "clientId": "9ab88f47-c50d-451c-9b6f-15568b9c82b9",
+    "clientSecret": "IM88Q~Eb6EMMFMpeaTO1XRajrNkucWWb4eMRfc.t",
+    "subscriptionId": "5461187e-57bf-4442-92ef-24d66fd0698d",
+    "tenantId": "bafd4066-3e66-4e2e-aa8d-ee093097beda",
+    "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+    "resourceManagerEndpointUrl": "https://management.azure.com/",
+    "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+    "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
+    "galleryEndpointUrl": "https://gallery.azure.com/",
+    "managementEndpointUrl": "https://management.core.windows.net/"
+}
