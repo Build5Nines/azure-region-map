@@ -22,17 +22,24 @@ jobs:
         inlineScript: |
           az account list-locations --query "[].{displayName:displayName, name:name, latitude:metadata.latitude, longitude:metadata.longitude}" --output json > ./azure-regions/azure_regions.json
 
-    # add action that commits local changes back to repo
-    - uses: actions/commit@v1
+    # # add action that commits local changes back to repo
+    # - uses: actions/commit@v1
+    #   with:
+    #     repository: ${{ github.repository }}
+    #     # commit message
+    #     message: 'Update Azure Regions'
+    #     # files to commit
+    #     files: ./azure-regions/azure_regions.json
+    #     # name of branch to commit to
+    #     branch: main
+    #     # name of author
+    #     author_name: GitHub Actions
+    #     # email of author
+    #     #author_email:
+
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        repository: ${{ github.repository }}
-        # commit message
-        message: 'Update Azure Regions'
-        # files to commit
-        files: ./azure-regions/azure_regions.json
-        # name of branch to commit to
-        branch: main
-        # name of author
-        author_name: GitHub Actions
-        # email of author
-        #author_email:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: main # The branch the action should deploy to.
+        FOLDER: ${{ github.workspace }} # The folder the action should deploy.
