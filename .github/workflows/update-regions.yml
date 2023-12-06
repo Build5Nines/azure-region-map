@@ -25,6 +25,7 @@ jobs:
     # add action that commits local changes back to repo
     - uses: actions/commit@v1
       with:
+        repository: ${{ github.repository }}
         # commit message
         message: 'Update Azure Regions'
         # files to commit
