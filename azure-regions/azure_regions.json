@@ -73,8 +73,8 @@
   },
   {
     "displayName": "South Africa North",
-    "latitude": "-25.731340",
-    "longitude": "28.218370",
+    "latitude": "-25.73134",
+    "longitude": "28.21837",
     "name": "southafricanorth"
   },
   {
@@ -98,7 +98,7 @@
   {
     "displayName": "Korea Central",
     "latitude": "37.5665",
-    "longitude": "126.9780",
+    "longitude": "126.978",
     "name": "koreacentral"
   },
   {
@@ -110,7 +110,7 @@
   {
     "displayName": "France Central",
     "latitude": "46.3772",
-    "longitude": "2.3730",
+    "longitude": "2.373",
     "name": "francecentral"
   },
   {
@@ -120,10 +120,22 @@
     "name": "germanywestcentral"
   },
   {
+    "displayName": "Italy North",
+    "latitude": "45.46888",
+    "longitude": "9.18109",
+    "name": "italynorth"
+  },
+  {
     "displayName": "Norway East",
     "latitude": "59.913868",
     "longitude": "10.752245",
     "name": "norwayeast"
+  },
+  {
+    "displayName": "Poland Central",
+    "latitude": "52.23334",
+    "longitude": "21.01666",
+    "name": "polandcentral"
   },
   {
     "displayName": "Switzerland North",
@@ -144,10 +156,16 @@
     "name": "brazilsouth"
   },
   {
-    "displayName": "East US 2 EUAP",
-    "latitude": "36.6681",
-    "longitude": "-78.3889",
-    "name": "eastus2euap"
+    "displayName": "Central US EUAP",
+    "latitude": "41.5908",
+    "longitude": "-93.6208",
+    "name": "centraluseuap"
+  },
+  {
+    "displayName": "Israel Central",
+    "latitude": "31.2655698",
+    "longitude": "33.4506633",
+    "name": "israelcentral"
   },
   {
     "displayName": "Qatar Central",
@@ -330,6 +348,18 @@
     "name": "southeastasiastage"
   },
   {
+    "displayName": "Brazil US",
+    "latitude": "0",
+    "longitude": "0",
+    "name": "brazilus"
+  },
+  {
+    "displayName": "East US STG",
+    "latitude": "37.3719",
+    "longitude": "-79.8164",
+    "name": "eastusstg"
+  },
+  {
     "displayName": "North Central US",
     "latitude": "41.8819",
     "longitude": "-87.6278",
@@ -348,14 +378,20 @@
     "name": "jioindiawest"
   },
   {
-    "displayName": "Central US EUAP",
-    "latitude": "41.5908",
-    "longitude": "-93.6208",
-    "name": "centraluseuap"
+    "displayName": "East US 2 EUAP",
+    "latitude": "36.6681",
+    "longitude": "-78.3889",
+    "name": "eastus2euap"
+  },
+  {
+    "displayName": "South Central US STG",
+    "latitude": "29.4167",
+    "longitude": "-98.5",
+    "name": "southcentralusstg"
   },
   {
     "displayName": "West Central US",
-    "latitude": "40.890",
+    "latitude": "40.89",
     "longitude": "-110.234",
     "name": "westcentralus"
   },

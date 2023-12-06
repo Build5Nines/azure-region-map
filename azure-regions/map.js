@@ -2,7 +2,7 @@
     var popups = [], datasource;
     var map = new atlas.Map('regionMap', {
       language: 'en-US',
-      style: 'grayscale_light',
+      style: 'road', //'grayscale_light',
       authOptions: {
         authType: 'subscriptionKey',
         subscriptionKey: 'ydDiZKbKixfc9m1HmOcYKQRC8QEWh-y8G46b1RfMwR8'

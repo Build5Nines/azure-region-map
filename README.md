@@ -1,4 +1,4 @@
-# Microsoft Azure Regions Interactive Map
+# Microsoft Azure Regions Interactive Map by Build5Nines.com
 
 
 [View the Azure Regions Interactive Map](https://build5nines.com/map-azure-regions)
