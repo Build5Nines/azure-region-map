@@ -37,7 +37,7 @@
       });
       map.layers.add(layer);
 
-      var urlPrefix = 'https://raw.githubusercontent.com/Build5Nines/azure-region-map/main/azure-regions/';
+      var urlPrefix = 'https://build5nines.github.io/azure-region-map/azure-regions/';
   
       loadRegions(urlPrefix + 'azure_regions.json', dataSource);
       loadRegions(urlPrefix + 'other_azure_regions.json', dataSource);
