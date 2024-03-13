@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # Checkout code
-    - uses: actions/checkout@main
+    - uses: actions/checkout@v4
 
       # Log into Azure
     - uses: azure/login@v1
@@ -20,26 +20,15 @@ jobs:
     - uses: azure/CLI@v1
       with:
         inlineScript: |
-          az account list-locations --query "[].{displayName:displayName, name:name, latitude:metadata.latitude, longitude:metadata.longitude}" --output json > ./azure-regions/azure_regions.json
+          az account list-locations --query "[].{displayName:displayName, name:name, latitude:metadata.latitude, longitude:metadata.longitude}" --output json > azure-regions/azure_regions.json
 
-    # # add action that commits local changes back to repo
-    # - uses: actions/commit@v1
-    #   with:
-    #     repository: ${{ github.repository }}
-    #     # commit message
-    #     message: 'Update Azure Regions'
-    #     # files to commit
-    #     files: ./azure-regions/azure_regions.json
-    #     # name of branch to commit to
-    #     branch: main
-    #     # name of author
-    #     author_name: GitHub Actions
-    #     # email of author
-    #     #author_email:
+    - name: Commit and Push Changes
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        git config --global user.email "${{ github.actor }}"
+        git config --global user.name "${{ github.actor }}@users.noreply.github.com"
 
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: main # The branch the action should deploy to.
-        FOLDER: ${{ github.workspace }} # The folder the action should deploy.
+        git add azure-regions/azure_regions.json
+        git commit -m 'Update Azure regions json'
+
+        git push
