@@ -5,7 +5,7 @@ on:
 
 name: Update Azure Regions JSON
 jobs:
-  build-and-deploy:
+  update-azure-region-json:
     runs-on: ubuntu-latest
     steps:
     # Checkout code
@@ -22,6 +22,17 @@ jobs:
         inlineScript: |
           az account list-locations --query "[].{displayName:displayName, name:name, latitude:metadata.latitude, longitude:metadata.longitude}" --output json > azure-regions/azure_regions.json
 
+    - name: Check for Changes
+      id: check_changes
+      run: |
+        if [[ -n "$(git diff --exit-code)" ]]; then
+          echo "Changes detected."
+          echo "::set-output name=has_changes::true"
+        else
+          echo "No changes detected."
+          echo "::set-output name=has_changes::false"
+        fi
+        
     - name: Commit and Push Changes
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
