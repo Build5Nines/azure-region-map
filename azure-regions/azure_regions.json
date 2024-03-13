@@ -276,6 +276,18 @@
     "name": "india"
   },
   {
+    "displayName": "Israel",
+    "latitude": null,
+    "longitude": null,
+    "name": "israel"
+  },
+  {
+    "displayName": "Italy",
+    "latitude": null,
+    "longitude": null,
+    "name": "italy"
+  },
+  {
     "displayName": "Japan",
     "latitude": null,
     "longitude": null,
@@ -288,10 +300,28 @@
     "name": "korea"
   },
   {
+    "displayName": "New Zealand",
+    "latitude": null,
+    "longitude": null,
+    "name": "newzealand"
+  },
+  {
     "displayName": "Norway",
     "latitude": null,
     "longitude": null,
     "name": "norway"
+  },
+  {
+    "displayName": "Poland",
+    "latitude": null,
+    "longitude": null,
+    "name": "poland"
+  },
+  {
+    "displayName": "Qatar",
+    "latitude": null,
+    "longitude": null,
+    "name": "qatar"
   },
   {
     "displayName": "Singapore",
@@ -304,6 +334,12 @@
     "latitude": null,
     "longitude": null,
     "name": "southafrica"
+  },
+  {
+    "displayName": "Sweden",
+    "latitude": null,
+    "longitude": null,
+    "name": "sweden"
   },
   {
     "displayName": "Switzerland",
@@ -372,6 +408,12 @@
     "name": "westus"
   },
   {
+    "displayName": "Japan West",
+    "latitude": "34.6939",
+    "longitude": "135.5022",
+    "name": "japanwest"
+  },
+  {
     "displayName": "Jio India West",
     "latitude": "22.470701",
     "longitude": "70.05773",
@@ -382,12 +424,6 @@
     "latitude": "36.6681",
     "longitude": "-78.3889",
     "name": "eastus2euap"
-  },
-  {
-    "displayName": "South Central US STG",
-    "latitude": "29.4167",
-    "longitude": "-98.5",
-    "name": "southcentralusstg"
   },
   {
     "displayName": "West Central US",
@@ -418,12 +454,6 @@
     "latitude": "-37.8136",
     "longitude": "144.9631",
     "name": "australiasoutheast"
-  },
-  {
-    "displayName": "Japan West",
-    "latitude": "34.6939",
-    "longitude": "135.5022",
-    "name": "japanwest"
   },
   {
     "displayName": "Jio India Central",
