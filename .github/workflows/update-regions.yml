@@ -12,12 +12,14 @@ jobs:
     - uses: actions/checkout@v4
 
       # Log into Azure
-    - uses: azure/login@v1
+    - name: Azure Login
+      uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     # add action that calls an Azure CLI command
-    - uses: azure/CLI@v1
+    - name: Get Azure Regions
+      uses: azure/CLI@v1
       with:
         inlineScript: |
           az account list-locations --query "[].{displayName:displayName, name:name, latitude:metadata.latitude, longitude:metadata.longitude}" --output json > azure-regions/azure_regions.json
@@ -32,7 +34,7 @@ jobs:
           echo "No changes detected."
           echo "::set-output name=has_changes::false"
         fi
-        
+
     - name: Commit and Push Changes
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
