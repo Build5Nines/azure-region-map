@@ -144,6 +144,12 @@
     "name": "switzerlandnorth"
   },
   {
+    "displayName": "Mexico Central",
+    "latitude": "20.588818",
+    "longitude": "-100.389888",
+    "name": "mexicocentral"
+  },
+  {
     "displayName": "UAE North",
     "latitude": "25.266666",
     "longitude": "55.316666",
