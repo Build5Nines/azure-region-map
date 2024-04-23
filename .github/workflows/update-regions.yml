@@ -38,8 +38,8 @@ jobs:
     - name: Commit and Push Changes
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
-        git config --global user.email "${{ github.actor }}"
-        git config --global user.name "${{ github.actor }}@users.noreply.github.com"
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
         git add azure-regions/azure_regions.json
         git commit -m 'Update Azure regions json'
