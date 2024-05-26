@@ -138,6 +138,12 @@
     "name": "polandcentral"
   },
   {
+    "displayName": "Spain Central",
+    "latitude": "40.4259",
+    "longitude": "3.4209",
+    "name": "spaincentral"
+  },
+  {
     "displayName": "Switzerland North",
     "latitude": "47.451542",
     "longitude": "8.564572",
