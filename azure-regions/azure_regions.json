@@ -6,12 +6,6 @@
     "name": "eastus"
   },
   {
-    "displayName": "East US 2",
-    "latitude": "36.6681",
-    "longitude": "-78.3889",
-    "name": "eastus2"
-  },
-  {
     "displayName": "South Central US",
     "latitude": "29.4167",
     "longitude": "-98.5",
@@ -394,6 +388,12 @@
     "latitude": "0",
     "longitude": "0",
     "name": "brazilus"
+  },
+  {
+    "displayName": "East US 2",
+    "latitude": "36.6681",
+    "longitude": "-78.3889",
+    "name": "eastus2"
   },
   {
     "displayName": "East US STG",
