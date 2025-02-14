@@ -42,6 +42,14 @@
       map.events.add('click', layerAzureRegions, showPopup);
       //map.events.add('click', layerOtherRegions, showPopup);
       map.events.add('click', layerAzureGovRegions, showPopup);
+
+        document.getElementById('azureRegionsCheckbox').addEventListener('change', function() {
+            layerAzureRegions.setOptions({ visible: this.checked });
+        });
+
+        document.getElementById('usGovRegionsCheckbox').addEventListener('change', function() {
+            layerAzureGovRegions.setOptions({ visible: this.checked });
+        });
     });
   
     function showPopup(e) {
