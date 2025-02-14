@@ -80,7 +80,7 @@
                     '</div>';
 
                 popups.push(new atlas.Popup({
-                    content: '<div class="mapPopup"><strong>' + item.displayName + '</strong><br/>Latitude: ' + item.latitude + '<br/>Longitude: ' + item.longitude + '</div>',
+                    content: html,
                     position: [item.longitude, item.latitude],
                     pixelOffset: [0, -18]
                 }));
