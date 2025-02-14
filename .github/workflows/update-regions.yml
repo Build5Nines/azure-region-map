@@ -17,6 +17,13 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
+        # {
+        #   "clientId": "12345678-1234-1234-1234-123456789012",
+        #   "clientSecret": "your-client-secret",
+        #   "subscriptionId": "12345678-1234-1234-1234-123456789012",
+        #   "tenantId": "12345678-1234-1234-1234-123456789012"
+        # }
+
     # add action that calls an Azure CLI command
     - name: Get Azure Regions
       uses: azure/CLI@v1
