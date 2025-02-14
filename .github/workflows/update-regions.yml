@@ -22,7 +22,11 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-          az account list-locations --query "[].{displayName:displayName, name:name, latitude:metadata.latitude, longitude:metadata.longitude}" --output json > azure-regions/azure_regions.json
+          az account list-locations --query "[].{id:id, displayName:displayName, name:name, latitude:metadata.latitude, longitude:metadata.longitude, pairedRegion:metadata.pairedRegion }" --include-extended-locations y --output json > azure-regions/azure_regions.json
+
+    - name: Scrub Subscription Id
+      run: |
+        sed -i '' 's/[0-9a-fA-F]\{8\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{12\}/00000000-0000-0000-0000-000000000000/g' azure-regions/azure_regions.json
 
     - name: Check for Changes
       id: check_changes
