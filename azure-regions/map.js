@@ -30,21 +30,18 @@
   
       dataSource = new atlas.source.DataSource();
       map.sources.add(dataSource);
-      var layer = new atlas.layer.SymbolLayer(dataSource, null, {
-        iconOptions: {
-          allowOverlap: true
-        }
-      });
-      map.layers.add(layer);
 
       var urlPrefix = 'https://build5nines.github.io/azure-region-map/azure-regions/';
   
-      loadRegions(urlPrefix + 'azure_regions.json', dataSource);
-      //loadRegions(urlPrefix + 'other_azure_regions.json', dataSource);
-      loadRegions(urlPrefix + 'other_us_gov.json', dataSource);
+      const layerAzureRegions = loadRegions(urlPrefix + 'azure_regions.json', dataSource);
+      //const layerOtherRegions = loadRegions(urlPrefix + 'other_azure_regions.json', dataSource);
+      const layerAzureGovRegions = loadRegions(urlPrefix + 'other_us_gov.json', dataSource);
   
       map.popups.add(popups);
-      map.events.add('click', layer, showPopup);
+      
+      map.events.add('click', layerAzureRegions, showPopup);
+      //map.events.add('click', layerOtherRegions, showPopup);
+      map.events.add('click', layerAzureGovRegions, showPopup);
     });
   
     function showPopup(e) {
@@ -59,45 +56,51 @@
     }
   
     function loadRegions(jsonFileUrl, dataSource) {
-        
-      $.ajax({
-        url: jsonFileUrl,
-        dataType: 'json',
-        method: 'GET',
-        cache: false,
-         //error: function(xhr, msg, err) { alert(msg + '\n' + err); },
-        success: function(d) {
-  
-          for(var i = 0; i < d.length; i++) {
-            var item = d[i];
-
-            try {
-                const html = '<div class="mapPopup">' +
-                    '<strong>' + item.displayName + '</strong><br/>' +
-                    ((item.pairedRegion && item.pairedRegion.length > 0 && item.pairedRegion[0].name) ? 'Region Pair: ' + item.pairedRegion[0].name + '<br/>' : '') +
-                    'Latitude: ' + item.latitude + '<br/>' +
-                    'Longitude: ' + item.longitude + '<br/>' +
-                    '</div>';
-
-                popups.push(new atlas.Popup({
-                    content: html,
-                    position: [item.longitude, item.latitude],
-                    pixelOffset: [0, -18]
-                }));
-
-                dataSource.add(new atlas.data.Feature(new atlas.data.Point([item.longitude, item.latitude]), {
-                    popupIdx: popups.length - 1
-                }));
-
-            } catch(e) {
-                alert(e);
+        var layer = new atlas.layer.SymbolLayer(dataSource, null, {
+            iconOptions: {
+                allowOverlap: true
             }
+        });
+        map.layers.add(layer);
+        
+        // https://learn.microsoft.com/en-us/azure/azure-maps/map-add-pin
 
-        }
-  
-        }
-      });
+        $.ajax({
+            url: jsonFileUrl,
+            dataType: 'json',
+            method: 'GET',
+            cache: false,
+            //error: function(xhr, msg, err) { alert(msg + '\n' + err); },
+            success: function(d) {
+                for(var i = 0; i < d.length; i++) {
+                    var item = d[i];
+
+                    try {
+                        const html = '<div class="mapPopup">' +
+                            '<strong>' + item.displayName + '</strong><br/>' +
+                            ((item.pairedRegion && item.pairedRegion.length > 0 && item.pairedRegion[0].name) ? 'Region Pair: ' + item.pairedRegion[0].name + '<br/>' : '') +
+                            'Latitude: ' + item.latitude + '<br/>' +
+                            'Longitude: ' + item.longitude + '<br/>' +
+                            '</div>';
+
+                        popups.push(new atlas.Popup({
+                            content: html,
+                            position: [item.longitude, item.latitude],
+                            pixelOffset: [0, -18]
+                        }));
+
+                        dataSource.add(new atlas.data.Feature(new atlas.data.Point([item.longitude, item.latitude]), {
+                            popupIdx: popups.length - 1
+                        }));
+
+                    } catch(e) {
+                        alert(e);
+                    }
+                }
+            }
+        });
       
+        return layer;
     }
     
   
