@@ -68,31 +68,35 @@
          //error: function(xhr, msg, err) { alert(msg + '\n' + err); },
         success: function(d) {
   
-  
           for(var i = 0; i < d.length; i++) {
-                                  var item = d[i];
-  
-                                  try {
-  
-                                      popups.push(new atlas.Popup({
-                                        content: '<div class="mapPopup"><strong>' + item.displayName + '</strong><br/>Latitude: ' + item.latitude + '<br/>Longitude: ' + item.longitude + '</div>',
-                                        position: [item.longitude, item.latitude],
-                                        pixelOffset: [0, -18]
-                                      }));
-                                      dataSource.add(new atlas.data.Feature(new atlas.data.Point([item.longitude, item.latitude]), {
-                                        popupIdx: popups.length - 1
-                                      }));
-                                      
-  
-                                  } catch(e) {
-                                      alert(e);
-                                  }
-  
-                              }
+            var item = d[i];
+
+            try {
+                const html = '<div class="mapPopup">' +
+                    '<strong>' + item.displayName + '</strong><br/>' +
+                    ((item.pairedRegion && item.pairedRegion.length > 0 && item.pairedRegion[0].name) ? 'Region Pair: ' + item.pairedRegion[0].name + '<br/>' : '') +
+                    'Latitude: ' + item.latitude + '<br/>' +
+                    'Longitude: ' + item.longitude + '<br/>' +
+                    '</div>';
+
+                popups.push(new atlas.Popup({
+                    content: '<div class="mapPopup"><strong>' + item.displayName + '</strong><br/>Latitude: ' + item.latitude + '<br/>Longitude: ' + item.longitude + '</div>',
+                    position: [item.longitude, item.latitude],
+                    pixelOffset: [0, -18]
+                }));
+
+                dataSource.add(new atlas.data.Feature(new atlas.data.Point([item.longitude, item.latitude]), {
+                    popupIdx: popups.length - 1
+                }));
+
+            } catch(e) {
+                alert(e);
+            }
+
+        }
   
         }
       });
-  
       
     }
     
