@@ -40,7 +40,7 @@
       var urlPrefix = 'https://build5nines.github.io/azure-region-map/azure-regions/';
   
       loadRegions(urlPrefix + 'azure_regions.json', dataSource);
-      loadRegions(urlPrefix + 'other_azure_regions.json', dataSource);
+      //loadRegions(urlPrefix + 'other_azure_regions.json', dataSource);
       loadRegions(urlPrefix + 'other_us_gov.json', dataSource);
   
       map.popups.add(popups);

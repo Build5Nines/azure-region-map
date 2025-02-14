@@ -5,7 +5,12 @@
     "displayName": "US Sec East (undisclosed location)",
     "latitude": "37.274279",
     "longitude": "-78.536422",
-    "providers": [ ]
+    "pairedRegion": [
+      {
+        "id": null,
+        "name": null
+      }
+    ]
   },
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
@@ -13,7 +18,12 @@
     "displayName": "US Sec West (undisclosed location)",
     "latitude": "38.316024",
     "longitude": "-122.481734",
-    "providers": [ ]
+    "pairedRegion": [
+      {
+        "id": null,
+        "name": null
+      }
+    ]
   },
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
@@ -21,7 +31,12 @@
     "displayName": "US Gov Virginia",
     "latitude": "37.623159",
     "longitude": "-78.39411",
-    "providers": [ ]
+    "pairedRegion": [
+      {
+        "id": null,
+        "name": null
+      }
+    ]
   },
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
@@ -29,7 +44,12 @@
     "displayName": "US Gov Iowa",
     "latitude": "42.0739",
     "longitude": "-93.7749",
-    "providers": [ ]
+    "pairedRegion": [
+      {
+        "id": null,
+        "name": null
+      }
+    ]
   },
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
@@ -37,7 +57,12 @@
     "displayName": "US Gov Arizona",
     "latitude": "34.42527",
     "longitude": "-111.7046",
-    "providers": [ ]
+    "pairedRegion": [
+      {
+        "id": null,
+        "name": null
+      }
+    ]
   },
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
@@ -45,7 +70,12 @@
     "displayName": "US Gov Texas",
     "latitude": "31.56443",
     "longitude": "-99.208076",
-    "providers": [ ]
+    "pairedRegion": [
+      {
+        "id": null,
+        "name": null
+      }
+    ]
   },
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
@@ -53,7 +83,12 @@
     "displayName": "US DoD East",
     "latitude": "37.70926",
     "longitude": "-77.84588",
-    "providers": [ ]
+    "pairedRegion": [
+      {
+        "id": null,
+        "name": null
+      }
+    ]
   },
   {
     "id": "/subscriptions/{subscription-id}/locations/{name}",
@@ -61,6 +96,11 @@
     "displayName": "US DoD Central",
     "latitude": "42.41475",
     "longitude": "-92.561731",
-    "providers": [ ]
+    "pairedRegion": [
+      {
+        "id": null,
+        "name": null
+      }
+    ]
   }
 ]
