@@ -44,11 +44,19 @@
       map.events.add('click', layerAzureGovRegions, showPopup);
 
         document.getElementById('azureRegionsCheckbox').addEventListener('change', function() {
-            layerAzureRegions.setOptions({ visible: this.checked });
+            if (this.checked) {
+                layerAzureRegions.setOptions({ visible: true });
+            } else {
+                layerAzureRegions.setOptions({ visible: false });
+            }
         });
 
         document.getElementById('usGovRegionsCheckbox').addEventListener('change', function() {
-            layerAzureGovRegions.setOptions({ visible: this.checked });
+            if (this.checked) {
+                layerAzureGovRegions.setOptions({ visible: true });
+            } else {
+                layerAzureGovRegions.setOptions({ visible: false });
+            }
         });
     });
   
