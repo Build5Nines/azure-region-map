@@ -28,14 +28,17 @@
       );
   
   
-      dataSource = new atlas.source.DataSource();
-      map.sources.add(dataSource);
-
       var urlPrefix = 'https://build5nines.github.io/azure-region-map/azure-regions/';
   
-      const layerAzureRegions = loadRegions(urlPrefix + 'azure_regions.json', dataSource);
+      const dataSourceAzureRegions = new atlas.source.DataSource();
+      map.sources.add(dataSourceAzureRegions);
+      const layerAzureRegions = loadRegions(urlPrefix + 'azure_regions.json', dataSourceAzureRegions);
+
       //const layerOtherRegions = loadRegions(urlPrefix + 'other_azure_regions.json', dataSource);
-      const layerAzureGovRegions = loadRegions(urlPrefix + 'other_us_gov.json', dataSource);
+      
+      const dataSourceAzureGovRegions = new atlas.source.DataSource();
+      map.sources.add(dataSourceAzureGovRegions);
+      const layerAzureGovRegions = loadRegions(urlPrefix + 'other_us_gov.json', dataSourceAzureGovRegions);
   
       map.popups.add(popups);
       
