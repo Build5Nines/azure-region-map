@@ -36,7 +36,7 @@ jobs:
 
     - name: Scrub Subscription Id
       run: |
-        sed -i '' 's/[0-9a-fA-F]\{8\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{12\}/00000000-0000-0000-0000-000000000000/g' ./azure-regions/azure_regions.json
+        sed -i 's/[0-9a-fA-F]\{8\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{12\}/00000000-0000-0000-0000-000000000000/g' ./azure-regions/azure_regions.json
 
     - name: Check for Changes
       id: check_changes
