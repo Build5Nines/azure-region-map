@@ -29,11 +29,11 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-          az account list-locations --query "[].{id:id, displayName:displayName, name:name, latitude:metadata.latitude, longitude:metadata.longitude, pairedRegion:metadata.pairedRegion }" --include-extended-locations y --output json > azure-regions/azure_regions.json
+          az account list-locations --query "[].{id:id, displayName:displayName, name:name, latitude:metadata.latitude, longitude:metadata.longitude, pairedRegion:metadata.pairedRegion }" --include-extended-locations y --output json > ./azure-regions/azure_regions.json
 
     - name: Scrub Subscription Id
       run: |
-        sed -i '' 's/[0-9a-fA-F]\{8\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{12\}/00000000-0000-0000-0000-000000000000/g' azure-regions/azure_regions.json
+        sed -i '' 's/[0-9a-fA-F]\{8\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{4\}-[0-9a-fA-F]\{12\}/00000000-0000-0000-0000-000000000000/g' ./azure-regions/azure_regions.json
 
     - name: Check for Changes
       id: check_changes
@@ -52,7 +52,7 @@ jobs:
         git config --global user.name "${{ github.actor }}"
         git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-        git add azure-regions/azure_regions.json
+        git add ./azure-regions/azure_regions.json
         git commit -m 'Update Azure regions json'
 
         git push
