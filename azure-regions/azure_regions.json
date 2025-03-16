@@ -182,6 +182,14 @@
     ]
   },
   {
+    "displayName": "Indonesia Central",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/indonesiacentral",
+    "latitude": "-6.2",
+    "longitude": "106.816666",
+    "name": "indonesiacentral",
+    "pairedRegion": []
+  },
+  {
     "displayName": "Japan East",
     "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/japaneast",
     "latitude": "35.68",
@@ -191,6 +199,19 @@
       {
         "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/japanwest",
         "name": "japanwest"
+      }
+    ]
+  },
+  {
+    "displayName": "Japan West",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/japanwest",
+    "latitude": "34.6939",
+    "longitude": "135.5022",
+    "name": "japanwest",
+    "pairedRegion": [
+      {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/japaneast",
+        "name": "japaneast"
       }
     ]
   },
@@ -696,19 +717,6 @@
       {
         "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/eastus",
         "name": "eastus"
-      }
-    ]
-  },
-  {
-    "displayName": "Japan West",
-    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/japanwest",
-    "latitude": "34.6939",
-    "longitude": "135.5022",
-    "name": "japanwest",
-    "pairedRegion": [
-      {
-        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/japaneast",
-        "name": "japaneast"
       }
     ]
   },
