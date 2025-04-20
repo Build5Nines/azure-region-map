@@ -512,6 +512,14 @@
     "pairedRegion": null
   },
   {
+    "displayName": "Indonesia",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/indonesia",
+    "latitude": null,
+    "longitude": null,
+    "name": "indonesia",
+    "pairedRegion": null
+  },
+  {
     "displayName": "Israel",
     "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/israel",
     "latitude": null,
@@ -541,6 +549,14 @@
     "latitude": null,
     "longitude": null,
     "name": "korea",
+    "pairedRegion": null
+  },
+  {
+    "displayName": "Mexico",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/mexico",
+    "latitude": null,
+    "longitude": null,
+    "name": "mexico",
     "pairedRegion": null
   },
   {
@@ -592,6 +608,14 @@
     "pairedRegion": null
   },
   {
+    "displayName": "Spain",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/spain",
+    "latitude": null,
+    "longitude": null,
+    "name": "spain",
+    "pairedRegion": null
+  },
+  {
     "displayName": "Sweden",
     "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/sweden",
     "latitude": null,
@@ -605,6 +629,14 @@
     "latitude": null,
     "longitude": null,
     "name": "switzerland",
+    "pairedRegion": null
+  },
+  {
+    "displayName": "Taiwan",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/taiwan",
+    "latitude": null,
+    "longitude": null,
+    "name": "taiwan",
     "pairedRegion": null
   },
   {
