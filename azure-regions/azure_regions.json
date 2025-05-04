@@ -229,6 +229,14 @@
     ]
   },
   {
+    "displayName": "Malaysia West",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/malaysiawest",
+    "latitude": "3.140853",
+    "longitude": "101.693207",
+    "name": "malaysiawest",
+    "pairedRegion": []
+  },
+  {
     "displayName": "New Zealand North",
     "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/newzealandnorth",
     "latitude": "-36.84853",
@@ -358,6 +366,14 @@
         "name": "southcentralus"
       }
     ]
+  },
+  {
+    "displayName": "Chile Central",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/chilecentral",
+    "latitude": "-33.447487",
+    "longitude": "-70.673676",
+    "name": "chilecentral",
+    "pairedRegion": []
   },
   {
     "displayName": "Israel Central",
@@ -549,6 +565,14 @@
     "latitude": null,
     "longitude": null,
     "name": "korea",
+    "pairedRegion": null
+  },
+  {
+    "displayName": "Malaysia",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/malaysia",
+    "latitude": null,
+    "longitude": null,
+    "name": "malaysia",
     "pairedRegion": null
   },
   {
