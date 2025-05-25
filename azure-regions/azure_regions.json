@@ -376,6 +376,19 @@
     "pairedRegion": []
   },
   {
+    "displayName": "East US 2 EUAP",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/eastus2euap",
+    "latitude": "36.6681",
+    "longitude": "-78.3889",
+    "name": "eastus2euap",
+    "pairedRegion": [
+      {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/centraluseuap",
+        "name": "centraluseuap"
+      }
+    ]
+  },
+  {
     "displayName": "Israel Central",
     "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/israelcentral",
     "latitude": "31.2655698",
@@ -799,19 +812,6 @@
       {
         "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/eastus2euap",
         "name": "eastus2euap"
-      }
-    ]
-  },
-  {
-    "displayName": "East US 2 EUAP",
-    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/eastus2euap",
-    "latitude": "36.6681",
-    "longitude": "-78.3889",
-    "name": "eastus2euap",
-    "pairedRegion": [
-      {
-        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/centraluseuap",
-        "name": "centraluseuap"
       }
     ]
   },
