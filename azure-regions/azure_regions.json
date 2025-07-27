@@ -13,19 +13,6 @@
     ]
   },
   {
-    "displayName": "South Central US",
-    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/southcentralus",
-    "latitude": "29.4167",
-    "longitude": "-98.5",
-    "name": "southcentralus",
-    "pairedRegion": [
-      {
-        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/northcentralus",
-        "name": "northcentralus"
-      }
-    ]
-  },
-  {
     "displayName": "West US 2",
     "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/westus2",
     "latitude": "47.233",
@@ -256,6 +243,14 @@
         "name": "canadaeast"
       }
     ]
+  },
+  {
+    "displayName": "Austria East",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/austriaeast",
+    "latitude": "16.214834",
+    "longitude": "48.2201153",
+    "name": "austriaeast",
+    "pairedRegion": []
   },
   {
     "displayName": "France Central",
@@ -760,6 +755,19 @@
       {
         "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/southcentralusstg",
         "name": "southcentralusstg"
+      }
+    ]
+  },
+  {
+    "displayName": "South Central US",
+    "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/southcentralus",
+    "latitude": "29.4167",
+    "longitude": "-98.5",
+    "name": "southcentralus",
+    "pairedRegion": [
+      {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/locations/northcentralus",
+        "name": "northcentralus"
       }
     ]
   },
